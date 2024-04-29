@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className='App'>
-      <h1>Image Compression POC</h1>
+      <h1>SMME Image Compression POC</h1>
       <input type='file' accept='image/*' onChange={handleImageUpload} />
       <div className='images'>
         {originalImage && (
